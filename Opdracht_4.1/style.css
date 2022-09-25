@@ -29,4 +29,15 @@ a {
     text-decoration: none;
     
 }
+html {
+    font-size: 62.5%;
+}
 
+header {
+    width: 134rem;
+    height:45rem;
+    background-image: url(./img/splatoon\ 3\ header\ background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
