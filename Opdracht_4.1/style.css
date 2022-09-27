@@ -34,10 +34,40 @@ html {
 }
 
 header {
-    width: 134rem;
-    height:45rem;
-    background-image: url(./img/splatoon\ 3\ header\ background.jpg);
+    width: 250rem;
+    height:40rem;
+    background-image: url(./img/thumb-350-349582.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    
+}
+
+.headerh1 {
+    color:chartreuse;
+    
+}
+.p1 {
+    color:white;
+    font-size: 17px;
+}
+
+img {
+    border-radius: 8px;
+  }
+
+img {
+    width: 100rem;
+}
+
+
+article {
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style:solid;
+    border-radius: 5px;
+    
+  border-width: 5px 8px;
 }
