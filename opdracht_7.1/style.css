@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    background-color: gold;
+}
+
+.item1 {
+    display: none;
+}
+
+div {
+    background-color: goldenrod;
+    height: 12.2rem;
+}
+
+.div2 {
+    background-color: blanchedalmond;
+    height: 12.2rem;
+}
+
+.div3 {
+    background-color: beige;
+    height: 12.29rem;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        color: white;
+        background-color: rgb(133, 92, 119);
+        text-align: center;
+    }
+
+    .item1 {
+        display: none;
+    }
+    
+    div {
+        color: white;
+        background-color: rgb(136, 0, 23);
+        height: 12.2rem;
+    }
+    
+    .div2 {
+        color: white;
+        background-color: rgb(68, 68, 175);
+        height: 12.2rem;
+    }
+    
+    .div3 {
+        color: white;
+        background-color: blue;
+        height: 12.29rem;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        color: white;
+        background-color: crimson;
+        text-align: left;
+    }
+
+    .item1 {
+        background-color: white;
+        height: 15px;
+        width: 15px;
+        display: flex;
+        margin-top: -23px;
+        margin-left: 463px;
+        margin-bottom: 10px;
+        z-index: 1;
+    }
+    
+    div {
+        color: white;
+        background-color: rgb(28, 165, 57);
+        height: 12.2rem;
+        text-align: center;
+    }
+    
+    .div2 {
+        color: white;
+        background-color: rgb(245, 174, 245);
+        height: 12.2rem;
+    }
+    
+    .div3 {
+        color: white;
+        background-color: rgb(14, 14, 56);
+        height: 12.29rem;
+    }
+}
